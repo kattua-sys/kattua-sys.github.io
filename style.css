@@ -1,0 +1,53 @@
+
+
+
+h1{
+	font-family: fantasy;
+	text-align: center;
+	font-size: 3em;
+	border-bottom: 5px rgba(255, 0, 0, 1.0);
+	border-right:5px rgba(255, 0, 0, 1.0); 
+	width: 400px;
+	box-shadow: 5px 5px 5px rgba(255, 0, 0, 1.0);
+	text-decoration: none;
+
+	/*border: 5px solid darkred;
+	text-align: center;*/
+	/*border-bottom: 5px solid darkred;*/
+/*	width: 400px;
+*/	/*border-right: 5px solid ;darkred*/
+}
+ 	
+ 	h2{ 
+ 		font-family: fantasy;
+	text-align: center;
+	font-size: 3em;
+	border-bottom: 5px rgba(255, 0, 0, 1.0);
+	border-right:5px rgba(255, 0, 0, 1.0); 
+	width: 400px;
+	box-shadow: 5px 5px 5px rgba(255, 0, 0, 1.0);
+	text-decoration: none
+
+ 	}
+
+        
+
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 700px;
+	height: 600px;
+	object-fit: cover;
+	margin: 20px;
+	transition: all 1s;
+}
+
+img:hover {
+    transform:scale(1.3) ;
+
+}
